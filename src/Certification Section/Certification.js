@@ -1,5 +1,8 @@
 // src/components/Certifications.jsx
 import React, { useEffect, useRef, useState } from "react";
+import exp1 from "../Image/Alvin UIUX Webhozz.jpg";
+import exp2 from "../Image/Alvin JavaP.jpg";
+import exp3 from "../Image/Alvin Javun.jpg";
 
 /**
  * Ganti src dengan path gambar sertifikatmu (jpg/png/svg).
@@ -15,27 +18,27 @@ const CERTS = [
     link: "#",
   },
   {
-    id: 2,
+    id: exp1,
     title: "UI/UX Design",
     issuer: "WebHozz | Web & IT Training",
     date: "Jun 2024",
-    src: "/certs/cert2.jpg",
+    src: exp1,
     link: "#",
   },
   {
-    id: 3,
+    id: exp3,
     title: "Java Fundamental",
     issuer: "WebHozz | Web & IT Training",
     date: "Sep 2024",
-    src: "/certs/cert3.jpg",
+    src: exp3,
     link: "#",
   },
   {
-    id: 4,
+    id: exp2,
     title: "Java Programming",
     issuer: "WebHozz | Web & IT Training",
     date: "Nov 2024",
-    src: "/certs/cert4.jpg",
+    src: exp2,
     link: "#",
   },
   {
