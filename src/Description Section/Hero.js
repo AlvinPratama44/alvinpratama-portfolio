@@ -18,26 +18,26 @@ export default function Hero() {
 
           <p className="mt-5 text-lg text-gray-600">
             Hi, I'm Alvin Pratama Putra, a passionate Web Design and UI/UX Designer. I'm a Binus University graduate currently sharpening my skills through bootcamps and Online Learning. I enjoy creating clean, user-friendly designs that solve real problems.
-            <br/>
+            <br />
             Welcome to my portfolio!
           </p>
 
           {/* Tombol Aksi */}
           <div className="mt-5 flex justify-center md:justify-start gap-4">
             <a
-  href="https://linkedin.com/in/alvinpratamap"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-[150px] bg-black h-[50px] my-3 flex items-center justify-center 
+              href="https://linkedin.com/in/alvinpratamap"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[150px] bg-black h-[50px] my-3 flex items-center justify-center 
              rounded-xl cursor-pointer relative overflow-hidden transition-all 
              duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg 
              before:absolute before:top-0 before:-left-full before:w-full before:h-full 
              before:bg-gradient-to-r before:from-[#21409D] before:to-[#2561EF] 
              before:transition-all before:duration-500 before:ease-in-out before:z-[-1] 
              before:rounded-xl hover:before:left-0 text-white"
->
-  Connect
-</a>
+            >
+              Connect
+            </a>
 
 
             <button
@@ -58,7 +58,7 @@ export default function Hero() {
         <div className="flex-1 mt-10 md:mt-0 flex justify-center">
           <img
             src={Image1}
-            alt="Image Hero"
+            alt=""
             className="framer-motion w-full max-w-md rounded-2xl shadow-lg"
           />
         </div>
